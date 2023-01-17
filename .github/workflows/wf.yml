@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: 🚚 Deploy
+      - name: 📂 Sync folders and files to the server
       - uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: ${{ secrets.FTP_SERVER }}
